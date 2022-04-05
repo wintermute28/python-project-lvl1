@@ -14,11 +14,12 @@ def launch_game(game):
         print("Question: {}".format(question))
         user_answer = str(prompt.string("Your answer: "))
         if user_answer == right_answer:
-            user_score += 1
             print("Correct!")
         else:
             print("'" + str(user_answer) + "'" + " is wrong answer ;(. Correct\
  answer was " + "'" + str(right_answer) + "'" + ".\nLet's try\
  again, " + name + "!")
             break
-    return print("Congratulations, " + name + "!")
+        user_score += 1
+    if user_score == 3:
+        return print("Congratulations, " + name + "!")

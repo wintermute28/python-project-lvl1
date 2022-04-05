@@ -5,8 +5,8 @@ description = 'What is the result of the expression?'
 
 def round():
     opetator_set = "+-*"
-    random_number1 = randint(1, 100)
-    random_number2 = randint(1, 100)
+    random_number1 = randint(1, 50)
+    random_number2 = randint(1, 50)
     random_operator = choice(opetator_set)
     if random_operator == "+":
         question = f"{random_number1} + {random_number2}"
