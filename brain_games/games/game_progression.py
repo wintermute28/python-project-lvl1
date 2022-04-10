@@ -17,4 +17,3 @@ def round():
     progression[hidden_element] = ".."
     question = ' '.join(map(str, progression))
     return question, right_answer
-

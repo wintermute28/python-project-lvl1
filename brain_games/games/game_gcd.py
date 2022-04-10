@@ -13,4 +13,3 @@ def round():
             random_number2 = random_number2 % random_number1
     right_answer = str(random_number1 + random_number2)
     return question, right_answer
-

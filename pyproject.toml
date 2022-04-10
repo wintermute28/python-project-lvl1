@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "5 math mini-games"
 authors = ["wintermute28 <a28c@yandex.ru>"]
+repository = "https://github.com/wintermute28/python-project-lvl1"
 packages = [
   { include = "brain_games" },
 ]
