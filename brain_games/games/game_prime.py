@@ -4,12 +4,10 @@ DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def is_prime(random_number):
     divider = 2
-    if random_number in range(2, 4):
-        return True
-    elif random_number == 1:
+    if random_number == 1:
         return False
     else:
-        while divider <= random_number - 1:
+        while divider <= random_number / 2:
             if random_number % divider == 0:
                 return False
                 break
